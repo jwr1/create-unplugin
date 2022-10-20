@@ -1,6 +1,8 @@
-# create-unplugin
+# create-unplugin [![npm](https://img.shields.io/npm/v/create-unplugin)](https://npm.im/create-unplugin)
 
-## Initialize a new unplugin package
+Initialize a new unplugin package.
+
+## Usage
 
 Make sure you are in an empty directory, then run the following with your package manager.
 

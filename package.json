@@ -1,9 +1,9 @@
 {
   "name": "create-unplugin",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Initialize a new unplugin package.",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jwr12135/create-unplugin.git"
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/jwr12135/create-unplugin#readme",
   "bin": {
-    "create-unplugin": "index.js"
+    "create-unplugin": "src/index.js"
   },
   "dependencies": {
     "prompts": "^2.4.2"
