@@ -30,7 +30,7 @@ export default function genPackage(response) {
       dev: 'tsup --watch src',
     },
     tsup: {
-      entryPoints: ['src/*.' + response.typescript ? 'ts' : 'js'],
+      entryPoints: ['src/*.' + (response.typescript ? 'ts' : 'js')],
       clean: true,
       format: ['cjs', 'esm'],
       dts: response.typescript ? true : undefined,
