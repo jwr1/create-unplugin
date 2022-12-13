@@ -40,7 +40,7 @@ export default function genPackage(response) {
   for (const bundler of response.bundlers) {
     out.keywords.push(bundler);
 
-    out.exports[bundler] = {
+    out.exports[`./${bundler}`] = {
       require: `./dist/${bundler}.js`,
       import: `./dist/${bundler}.mjs`,
     };
