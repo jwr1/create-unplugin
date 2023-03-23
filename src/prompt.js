@@ -41,7 +41,7 @@ export default function prompt() {
         choices: Object.keys(bundlers).map((v) => ({
           title: bundlers[v].name,
           value: v,
-          selected: true,
+          selected: !bundlers[v].name.endsWith('(experimental)'),
         })),
         hint: '- Space to select. Return to submit',
         instructions: false,

@@ -26,6 +26,19 @@ export default {
 }`;
     },
   },
+  rspack: {
+    name: 'Rspack (experimental)',
+    install(packageName, exportName) {
+      return `// rspack.config.js
+const { ${exportName} } = require('${packageName}/rspack');
+
+module.exports = {
+  plugins: [
+    ${exportName}(/* options */)
+  ],
+}`;
+    },
+  },
   vite: {
     name: 'Vite',
     install(packageName, exportName) {

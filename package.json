@@ -1,6 +1,6 @@
 {
   "name": "create-unplugin",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Initialize a new unplugin package.",
   "type": "module",
   "main": "src/index.js",
