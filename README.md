@@ -1,6 +1,6 @@
 # create-unplugin [![npm](https://img.shields.io/npm/v/create-unplugin)](https://npm.im/create-unplugin)
 
-Initialize a new unplugin package.
+Initialize a new [unplugin](https://github.com/unjs/unplugin) package.
 
 ## Usage
 
